@@ -14,7 +14,7 @@ int partition(vector<int> &arr, int low, int high)
         {
             i++;
             // cout << arr[i] << " " << arr[j] << endl;
-            swap(arr[i], arr[j]); // ye tab tab sort kr rha h jab jab isse chota element mil rha hh pivot se
+            swap(arr[i], arr[j]); // ye tab tab swap kr rha h jab jab isse chota element mil rha hh pivot se
             // cout << arr[i] << " " << arr[j] << endl;
         }
     }
@@ -55,3 +55,5 @@ int main()
     cout << endl;
     return 0;
 }
+
+

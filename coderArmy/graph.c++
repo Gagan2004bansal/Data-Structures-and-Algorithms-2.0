@@ -176,10 +176,6 @@ void TopologicalSort(int n, int m, unordered_map<int, vector<int>> &adj){
         }
     }
     
-    for(int i = 0; i<n; i++){
-        cout << Indegree[i] << " ";
-    }
-    
     queue<int> q;
     for(int i = 0; i<n; i++){
         if(Indegree[i] == 0){
@@ -187,9 +183,12 @@ void TopologicalSort(int n, int m, unordered_map<int, vector<int>> &adj){
         }
     }
     
+    
+    
     while(!q.empty()){
-        
         int node = q.front();
+        
+        cout << q.front() << endl;
         q.pop();
         
         cout << node << " ";
@@ -233,7 +232,7 @@ int main(){
     // DetectCycle(n, m, adj);
     
     // Topological Sort
-    // TopologicalSort(n, m, adj);
+    TopologicalSort(n, m, adj);
     
     return 0;
 }

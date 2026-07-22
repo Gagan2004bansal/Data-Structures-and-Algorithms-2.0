@@ -27,6 +27,7 @@ int main()
 
     int k;
     cout << "Enter K : " << endl;
+    cin >> k;
 
     vector<vector<int> > ans;
     vector<int> temp;

@@ -33,7 +33,7 @@
 //                 {
 //                     return true;
 //                 }
-//                 else if (!visited[neighbour])
+//                 else if (!visi ted[neighbour])
 //                 {
 //                     q.push(neighbour);
 //                     visited[neighbour] = true;

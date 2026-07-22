@@ -3,11 +3,11 @@
 #include <queue>
 #include <unordered_set>
 using namespace std;
-vector<vector<string> > solve(vector<string> &wordList, string startWord, string LastWord)
+vector<vector<string>> solve(vector<string> &wordList, string startWord, string LastWord)
 {
     unordered_set<string> st(wordList.begin(), wordList.end());
-    vector<vector<string> > ans;
-    queue<vector<string> > q;
+    vector<vector<string>> ans;
+    queue<vector<string>> q;
 
     vector<string> temp;
     temp.push_back(startWord);
@@ -86,7 +86,7 @@ int main()
     cout << "Enter endWord : ";
     cin >> endWord;
 
-    vector<vector<string> > ans = solve(wordList, startWord, endWord);
+    vector<vector<string>> ans = solve(wordList, startWord, endWord);
 
     cout << "All shortest Path \n";
     for (auto i : ans)

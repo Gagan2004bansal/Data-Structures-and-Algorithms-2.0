@@ -95,8 +95,7 @@ int main()
     int count = 0;
 
     int k;
-    cout << endl
-         << "Enter K sum : ";
+    cout << endl << "Enter K sum : ";
     cin >> k;
     KpathSum(root, count, k);
     cout << count << endl;

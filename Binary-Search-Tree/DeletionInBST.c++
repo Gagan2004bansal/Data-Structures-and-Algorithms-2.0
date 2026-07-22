@@ -106,7 +106,6 @@ Node *DeleteFromBST(Node *root, int data)
         root->left = DeleteFromBST(root->left, data);
         return root;
     }
-    cout << endl;
 }
 void DisplayingBST(Node *root)
 {

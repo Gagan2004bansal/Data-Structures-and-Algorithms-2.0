@@ -13,7 +13,7 @@ public:
         this->next = NULL;
     }
 };
-void InsertAtHead(Node *&head, Node *&tail)
+void InsertAtHead(Node *head, Node *&tail)
 {
     if (head == NULL)
     {
@@ -254,7 +254,7 @@ Node *ReverseList(Node *head)
 }
 Node *Middle1(Node *head)
 {
-    int length = 0;
+    int length = 0; 
     Node *temp = head;
     while (temp != NULL)
     {
@@ -344,7 +344,7 @@ Node *RemoveDuplicateFromUnsortedList(Node *head)
         return NULL;
     }
 
-    unordered_map<int, bool> visited;
+    unordered_map<int, bool> visited; 
     Node *curr = head;
     Node *prev = nullptr;
 
@@ -495,9 +495,9 @@ int main()
     // cout << ans << endl;
 
     // Floyd Detection Loop
-    tail->next = head->next->next; // for making of loop in LL
-    Node *check = floydDetectionLoop(head);
-    cout << check->data << endl;
+    // tail->next = head->next->next; // for making of loop in LL
+    // Node *check = floydDetectionLoop(head);
+    // cout << check->data << endl;
 
     // Getting Starting point of loops
     // tail->next = head->next->next; // for making of loop in LL

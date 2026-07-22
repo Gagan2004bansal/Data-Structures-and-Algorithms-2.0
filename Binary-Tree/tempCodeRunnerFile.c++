@@ -1,1 +1,1 @@
-#include <iostream>
+opNode[hd] = frontNode->data;

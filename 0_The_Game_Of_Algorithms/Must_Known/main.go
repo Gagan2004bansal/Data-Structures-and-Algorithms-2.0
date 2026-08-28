@@ -8,6 +8,8 @@ func main() {
 	// files.BinarySearch()
 
 	// Algo - 2 : Merge Sort
-	files.MergeSort()
+	// files.MergeSort()
 
+	// Algo - 3 : Quick Sort
+	files.QuickSort()
 }

@@ -11,5 +11,17 @@ func main() {
 	// files.MergeSort()
 
 	// Algo - 3 : Quick Sort
-	files.QuickSort()
+	// files.QuickSort()
+
+	// Algo - 4 : Heap Sort
+	// files.HeapSort()
+
+	// Algo - 5 : Kadane Algorithm
+	// files.KadaneAlgo()
+
+	// Algo - 6 : BFS Algorithm
+	// files.BFSAlgo()
+
+	// Algo - 7 : DFS Algorithm
+	files.DFSAlgo()
 }

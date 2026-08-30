@@ -23,5 +23,11 @@ func main() {
 	// files.BFSAlgo()
 
 	// Algo - 7 : DFS Algorithm
-	files.DFSAlgo()
+	// files.DFSAlgo()
+
+	// Algo - 8 : Kahn Algorithm [TopoSort - BFS Approach]
+	// files.KahnAlgo()
+
+	// Algo - 9 : Topo Sort - DFS Approach
+	files.TopoSort()
 }
